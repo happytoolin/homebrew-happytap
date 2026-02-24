@@ -1,6 +1,6 @@
 cask "happymode" do
-  version "0.0.1"
-  sha256 "8252e693bfda6f1533cc33cf89c251598da03bd48b8b169a420656612f3c049e"
+  version "0.0.2"
+  sha256 "065930f77f3be82e47ddf70d19240c0b41c2ad07acd7f935681d9e415c0c0d9c"
 
   url "https://github.com/happytoolin/happymode/releases/download/v#{version}/happymode-v#{version}.zip"
   name "happymode"
