@@ -1,28 +1,28 @@
 class Hni < Formula
   desc "ni-compatible package manager command router with node shim"
   homepage "https://github.com/happytoolin/hni"
-  version "0.0.1-alpha-1"
+  version "0.0.1-alpha-2"
   license "GPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/happytoolin/hni/releases/download/v#{version}/hni-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "38df89d676dcbb9057a6821357604e0e0a63c69374532aca9f56722368480732"
+      sha256 "96213ce7c4d0a3012741b695ff0f8815018dd25e371172b8797fb53e035f40fe"
     end
     on_intel do
       url "https://github.com/happytoolin/hni/releases/download/v#{version}/hni-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "24ca204da8fcbf2a67bdac5af9116875686b4cbb2831d8176f8a5267a7aa9f02"
+      sha256 "09245da52a4ffbb5711c657477ef1b474e8cb77de9a05ca371aeae7dc067a0ac"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/happytoolin/hni/releases/download/v#{version}/hni-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a86810ea62f741e6c54060e7d13525adbf1c7f7a46ec74e36170eae5a4faecdd"
+      sha256 "cd242a9348e2174edf8b19f9f0a594c7c8e429841cd77c88b1c2548630fae8fa"
     end
     on_intel do
       url "https://github.com/happytoolin/hni/releases/download/v#{version}/hni-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "431354d08462770cc202031a0b534e04d717be434753fe95af9259dd8ee0450b"
+      sha256 "7bda318f3c601af97784a2641525c04902e51af0cb63979086cb4de22feceddd"
     end
   end
 
