@@ -6,6 +6,7 @@ Homebrew tap for HappyToolin macOS apps.
 
 ```bash
 brew tap happytoolin/happytap
+brew install alur
 brew install --cask happymode
 ```
 
