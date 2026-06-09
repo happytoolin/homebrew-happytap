@@ -1,25 +1,25 @@
 class Alur < Formula
-  desc "ni-compatible package manager command router with node shim"
-  homepage "https://github.com/happytoolin/alur"
-  version "0.0.3"
+  desc "Fast package-manager routing with short commands and an opt-in Node shim"
+  homepage "https://alur.happytoolin.com"
+  version "0.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.3/alur-aarch64-apple-darwin.tar.xz"
-      sha256 "798eda742b9c119da866028c9e8f6e45bae2e80b9291b8bb5b3150043909f106"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-aarch64-apple-darwin.tar.xz"
+      sha256 "5a42dd3f5c34a0b3d8fb22ff6a684026f26d4aecc81c846f4895fbf032ed6464"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.3/alur-x86_64-apple-darwin.tar.xz"
-      sha256 "8c3a5172035fcfa2ff326efa63e0f35d5551ce6a9c70502c344eb1957382c8f7"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-x86_64-apple-darwin.tar.xz"
+      sha256 "0c25b10f5f2c90aa4297c0acba13f4f0e2b10945bdaee15556f9063ebe84b1ee"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.3/alur-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "5c7588c9686b612dfe2dbd32dbf458b81416f71b6c302d6db71d698464072cf2"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "d8a473534f4fbecc2dba6988a60bb837cb273a9b0aa2c7fbfdf41a96cc76cd15"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.3/alur-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "26fc81e3507db875d08967b5846ccebc6eb767cfea2f075b7316c993df7688cc"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "093689736656ff9d4100521da3b2ea82a103345e87138c37d554e8935e579021"
     end
   end
   license "GPL-3.0-only"
