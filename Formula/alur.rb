@@ -1,25 +1,25 @@
 class Alur < Formula
   desc "Fast package-manager routing with short commands and an opt-in Node shim"
   homepage "https://alur.happytoolin.com"
-  version "0.0.4"
+  version "0.0.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-aarch64-apple-darwin.tar.xz"
-      sha256 "5a42dd3f5c34a0b3d8fb22ff6a684026f26d4aecc81c846f4895fbf032ed6464"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-aarch64-apple-darwin.tar.xz"
+      sha256 "d83677d37a94fdb265069756893dd80ce266b73ac05b6dc479902e831dc97760"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-x86_64-apple-darwin.tar.xz"
-      sha256 "0c25b10f5f2c90aa4297c0acba13f4f0e2b10945bdaee15556f9063ebe84b1ee"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-x86_64-apple-darwin.tar.xz"
+      sha256 "3458f99975afba5723400eabf9079d119f121fb38f443b34bc31ed1a845d2fe4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "d8a473534f4fbecc2dba6988a60bb837cb273a9b0aa2c7fbfdf41a96cc76cd15"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "63ea03e2e13f06510a36b9f84a7ae1e6bb51d41efa348e13818a3718f3542d9f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.4/alur-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "093689736656ff9d4100521da3b2ea82a103345e87138c37d554e8935e579021"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "bf2c44d7899b993f4e554dda81cc4cfc9077ce54b9d30ef722d9085479b51450"
     end
   end
   license "GPL-3.0-only"
