@@ -1,25 +1,25 @@
 class Alur < Formula
   desc "Fast package-manager routing with short commands and an opt-in Node shim"
   homepage "https://alur.happytoolin.com"
-  version "0.0.5"
+  version "0.0.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-aarch64-apple-darwin.tar.xz"
-      sha256 "d83677d37a94fdb265069756893dd80ce266b73ac05b6dc479902e831dc97760"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.6/alur-aarch64-apple-darwin.tar.xz"
+      sha256 "e5ba2b22fe1bb43b82c0484d346fafdb1a29921d13188a0a5f4e28ffea20e7c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-x86_64-apple-darwin.tar.xz"
-      sha256 "3458f99975afba5723400eabf9079d119f121fb38f443b34bc31ed1a845d2fe4"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.6/alur-x86_64-apple-darwin.tar.xz"
+      sha256 "bcf6933846aa8f88b52a1df526c1f8a2a7f478c5a7294d280d194ae0759a4af7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "63ea03e2e13f06510a36b9f84a7ae1e6bb51d41efa348e13818a3718f3542d9f"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.6/alur-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "4b63ea640f6e63c53d2d4de32350380eb26883d1866f582b6786b6d217300db4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/happytoolin/alur/releases/download/v0.0.5/alur-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "bf2c44d7899b993f4e554dda81cc4cfc9077ce54b9d30ef722d9085479b51450"
+      url "https://github.com/happytoolin/alur/releases/download/v0.0.6/alur-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "7f5115c24434f009fe0d6836df1747ad63f0f78f3c4b2cea9db596333eccf297"
     end
   end
   license "GPL-3.0-only"
@@ -29,110 +29,110 @@ class Alur < Formula
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "aarch64-pc-windows-gnu":             {
       "alur.exe": [
         "ni.exe",
         "nr.exe",
-        "nlx.exe",
-        "nun.exe",
+        "nex.exe",
+        "nrm.exe",
         "nci.exe",
-        "np.exe",
-        "ns.exe",
+        "npar.exe",
+        "nseq.exe",
       ],
     },
     "aarch64-unknown-linux-gnu":          {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "aarch64-unknown-linux-musl-dynamic": {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "aarch64-unknown-linux-musl-static":  {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "x86_64-apple-darwin":                {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "x86_64-pc-windows-gnu":              {
       "alur.exe": [
         "ni.exe",
         "nr.exe",
-        "nlx.exe",
-        "nun.exe",
+        "nex.exe",
+        "nrm.exe",
         "nci.exe",
-        "np.exe",
-        "ns.exe",
+        "npar.exe",
+        "nseq.exe",
       ],
     },
     "x86_64-unknown-linux-gnu":           {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "x86_64-unknown-linux-musl-dynamic":  {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
     "x86_64-unknown-linux-musl-static":   {
       alur: %w[
         ni
         nr
-        nlx
-        nun
+        nex
+        nrm
         nci
-        np
-        ns
+        npar
+        nseq
       ],
     },
   }.freeze
